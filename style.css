@@ -2,11 +2,11 @@
 /*
  * Header styles
  */
-
-.contact-info {
-  margin-top: -24px;
+@media only screen and (min-width: 450px) {
+  .contact-info {
+    margin-top: -24px;
+  }
 }
-
 .contact-info p {
   color: #092f87;
   font-size: 24px;
