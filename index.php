@@ -11,18 +11,18 @@
 
     <title>Abacus Leewell</title>
 
-    <link rel="icon" type="image/png" href="favicon.ico" />
+    <link rel="icon" type="image/png" href="<?php bloginfo('template_directory'); ?>/favicon.ico" />
 
     <!-- stylesheets -->
     <link rel="stylesheet" type="text/css" media="screen" href="https://assets.ubuntu.com/v1/vanilla-framework-version-0.0.55.min.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="<?php bloginfo('template_directory'); ?>/style.css" />
     <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,700,700italic%7CUbuntu+Mono' rel='stylesheet' type='text/css' />
 </head>
 
 <body>
     <header class="wrapper inner-wrapper">
         <div class="logo">
-            <img src="img/abacus-leewell-logo.png" alt="Abacus Leewell" />
+            <img src="<?php bloginfo('template_directory'); ?>/img/abacus-leewell-logo.png" alt="Abacus Leewell" />
         </div>
         <div class="contact-info right">
             <p>T: <span>01462 700229</span></p>
@@ -58,11 +58,11 @@
     <footer class="clearfix">
         <div class="inner-wrapper">
             <ul class="inline-logos clear">
-                <li><img src="img/logo-brother.png" alt="" /></li>
-                <li><img src="img/logo-fijitsu.png" alt="" /></li>
-                <li><img src="img/logo-kaspersky.png" alt="" /></li>
-                <li><img src="img/logo-hp.png" alt="" /></li>
-                <li><img src="img/logo-microsoft.png" alt="" /></li>
+                <li><img src="<?php bloginfo('template_directory'); ?>/img/logo-brother.png" alt="" /></li>
+                <li><img src="<?php bloginfo('template_directory'); ?>/img/logo-fijitsu.png" alt="" /></li>
+                <li><img src="<?php bloginfo('template_directory'); ?>/img/logo-kaspersky.png" alt="" /></li>
+                <li><img src="<?php bloginfo('template_directory'); ?>/img/logo-hp.png" alt="" /></li>
+                <li><img src="<?php bloginfo('template_directory'); ?>/img/logo-microsoft.png" alt="" /></li>
             </ul>
             <span class="accessibility-aid"><a href="#">Got to the top of the page</a></span>
         </div>
