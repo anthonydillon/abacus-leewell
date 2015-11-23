@@ -1,5 +1,13 @@
 
 /*
+ * Base styles
+ */
+
+img {
+  max-width: 100% !important;
+}
+
+/*
  * Header styles
  */
 @media only screen and (min-width: 450px) {
@@ -21,11 +29,7 @@
  */
 
 .row-hero {
-  background-image: url('img/hero-background-image.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
   color: #fff;
-  padding-bottom: 120px;
 }
 
 .row-hero h1 {
@@ -33,12 +37,29 @@
   text-align: center;
 }
 
+.slider {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.slide-one {
+  background-image: url('../img/hero-background-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 120px;
+}
+
+.slide-two img,
+.slide-three img {
+  max-width: 100%;
+}
+
 /*
  * Body styles
  */
 
 .clouds-top {
-  background-image: url('img/clouds-border.png');
+  background-image: url('../img/clouds-border.png');
   background-repeat: repeat-x;
   height: 120px;
   width: 100%;
@@ -47,7 +68,7 @@
 }
 
 .clouds-bottom {
-  background-image: url('img/clouds-border-bottom.png');
+  background-image: url('../img/clouds-border-bottom.png');
   background-repeat: repeat-x;
   background-color: #9d9d9c;
   height: 150px;
@@ -58,11 +79,11 @@
 
 .main-contact:before,
 .main-contact:after {
-  background-image: url('img/border-dot.png');
+  background-image: url('../img/border-dot.png');
   background-repeat: repeat-x;
   content: " ";
   display: block;
-  width: 360px;
+  max-width: 360px;
   height: 15px;
   position: relative;
   top: -20px;
