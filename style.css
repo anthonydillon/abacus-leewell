@@ -21,10 +21,16 @@ Tags: blue, white, abacus leewell, clouds, tech
 .contact-info p {
   color: #092f87;
   font-size: 24px;
+  margin-bottom: 0;
 }
 
 .contact-info span {
   color: #868686;
+}
+
+.nav-primary a:link,
+.nav-primary a:visited {
+  color: #333;
 }
 
 /*
