@@ -33,6 +33,10 @@ Tags: blue, white, abacus leewell, clouds, tech
   color: #333;
 }
 
+header nav a.is-active {
+  font-weight: 600;
+}
+
 /*
  * Hero styles
  */

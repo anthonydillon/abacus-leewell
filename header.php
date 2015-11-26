@@ -1,3 +1,7 @@
+<?php
+    global $post;
+    $post_slug = $post->post_name;
+?>
 <!doctype html>
 <html lang="en" dir="ltr">
 
@@ -22,7 +26,9 @@
     <header class="wrapper inner-wrapper">
         <div class="twelve-col">
             <div class="logo">
-                <img src="<?php bloginfo('template_directory'); ?>/img/abacus-leewell-logo.png" alt="Abacus Leewell" />
+                <a href="<?php echo site_url(); ?>/">
+                  <img src="<?php bloginfo('template_directory'); ?>/img/abacus-leewell-logo.png" alt="Abacus Leewell" />
+                </a>
             </div>
             <div class="contact-info right">
                 <p>T: <span>01462 700229</span></p>
@@ -30,12 +36,12 @@
         </div>
             <nav role="navigation" class="nav-primary">
                 <ul class="inline-list">
-                    <li><a href="<?php echo site_url(); ?>/about-us">About us</a></li>
-                    <li><a href="<?php echo site_url(); ?>/services">Services</a></li>
-                    <li><a href="<?php echo site_url(); ?>/products">Products</a></li>
-                    <li><a href="<?php echo site_url(); ?>/solutions">Solutions</a></li>
-                    <li><a href="<?php echo site_url(); ?>/news">News centre</a></li>
-                    <li><a href="<?php echo site_url(); ?>/contact">Contact</a></li>
+                    <li><a href="<?php echo site_url(); ?>/about-us" <?php echo ($post_slug == 'about-us' ? 'class="is-active"': '')?>>About us</a></li>
+                    <li><a href="<?php echo site_url(); ?>/services" <?php echo ($post_slug == 'services' ? 'class="is-active"': '')?>>Services</a></li>
+                    <li><a href="<?php echo site_url(); ?>/products" <?php echo ($post_slug == 'products' ? 'class="is-active"': '')?>>Products</a></li>
+                    <li><a href="<?php echo site_url(); ?>/solutions" <?php echo ($post_slug == 'solutions' ? 'class="is-active"': '')?>>Solutions</a></li>
+                    <li><a href="<?php echo site_url(); ?>/news" <?php echo ($post_slug == 'news' ? 'class="is-active"': '')?>>News centre</a></li>
+                    <li><a href="<?php echo site_url(); ?>/contact" <?php echo ($post_slug == 'contact' ? 'class="is-active"': '')?>>Contact</a></li>
                 </ul>
             </nav>
     </header>
