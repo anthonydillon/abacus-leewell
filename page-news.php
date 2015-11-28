@@ -7,6 +7,7 @@
  * @author         Anthony Diilon
  * @version        Release: 0.1
  */
+ /* Template Name: News */
 
 get_header(); ?>
 

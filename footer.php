@@ -1,15 +1,69 @@
 
   <footer class="clearfix">
+    <div class="row no-border">
       <div class="inner-wrapper">
-          <ul class="inline-logos clear">
-              <li><img src="<?php bloginfo('template_directory'); ?>/img/logo-brother.png" alt="" /></li>
-              <li><img src="<?php bloginfo('template_directory'); ?>/img/logo-fijitsu.png" alt="" /></li>
-              <li><img src="<?php bloginfo('template_directory'); ?>/img/logo-kaspersky.png" alt="" /></li>
-              <li><img src="<?php bloginfo('template_directory'); ?>/img/logo-hp.png" alt="" /></li>
-              <li><img src="<?php bloginfo('template_directory'); ?>/img/logo-microsoft.png" alt="" /></li>
+        <span class="accessibility-aid"><a href="#">Got to the top of the page</a></span>
+        <div class="two-col">
+          <h4>Main menu</h4>
+          <ul class="no-bullets">
+            <li><a href="/about-us">About us</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/products">Products</a></li>
+            <li><a href="/solutions">Solutions</a></li>
+            <li><a href="/news-centre">News centre</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/book-a-repair">Book a repair</a></li>
           </ul>
-          <span class="accessibility-aid"><a href="#">Got to the top of the page</a></span>
+        </div>
+        <div class="two-col">
+          <h4>Services</h4>
+          <ul class="no-bullets">
+            <li><a href="/services/consultancy">Consultancy</a></li>
+            <li><a href="/services/repair">Repair</a></li>
+            <li><a href="/services/remote-support">Remote Support</a></li>
+            <li><a href="/services/managed-services">Managed Services</a></li>
+            <li><a href="/services/consumables">Consumables</a></li>
+          </ul>
+        </div>
+        <div class="two-col">
+          <h4>Products</h4>
+          <ul class="no-bullets">
+            <li><a href="/products/print">Print</a></li>
+            <li><a href="/products/workspace">Workspace</a></li>
+            <li><a href="/products/consumables">Consumables</a></li>
+          </ul>
+        </div>
+        <div class="two-col">
+          <h4>Solutions</h4>
+          <ul class="no-bullets">
+            <li><a href="/solutions/managed-print-service">Managed Print Service</a></li>
+            <li><a href="/solutions/cloud">Cloud</a></li>
+            <li><a href="/solutions/mobility">Mobility</a></li>
+            <li><a href="/solutions/networking">Networking</a></li>
+            <li><a href="/solutions/workspace">Workspace</a></li>
+          </ul>
+        </div>
+        <div class="two-col">
+          <h4>News</h4>
+          <ul class="no-bullets">
+            <li><a href="/news-centre">Latest news</a></li>
+          </ul>
+        </div>
+        <div class="two-col last-col">
+          <h4>Small print</h4>
+          <ul class="no-bullets">
+            <li><a href="/privacy">Your privacy</a></li>
+            <li><a href="/terms-and-conditions">Terms and conditions</a></li>
+          </ul>
+        </div>
       </div>
+    </div>
+    <div class="row no-border strip-white">
+      <div class="inner-wrapper">
+        <img src="<?php bloginfo('template_directory'); ?>/img/abacus-leewell-logo.png" alt="Abacus Leewell" class="left" />
+        <p class="right copyright">&copy; 2015 Abacus Leewell. All rights reserved.</p>
+      </div>
+    </div>
   </footer>
 </body>
 </html>

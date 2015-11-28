@@ -15,30 +15,40 @@ get_header(); ?>
 
     <div class="wrapper">
         <div class="row row-hero no-border">
-            <div class="inner-wrapper">
-                <h1>Coming soon <br />a brand new <br />Abacus Leewell website</h1>
+            <div class="inner-wrapper align-center">
+                <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/video-play.svg" alt="Play video" width="150" height="150" /></a>
             </div>
         </div>
         <div class="row clouds-top no-border"></div>
-
+        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <div class="row no-border">
             <div class="inner-wrapper">
-                <div itemscope itemtype="http://schema.org/ContactPoint" class="main-contact align-center">
-                    <div itemscope itemtype="http://schema.org/PostalAddress" class="clearfix">
-                        <span itemprop="streetAddress" class="main-contact__item">30B High Street</span>
-                        <span itemprop="addressLocality" class="main-contact__item">Langford</span>
-                        <span itemprop="addressLocality" class="main-contact__item">Biggleswade</span>
-                        <span itemprop="addressRegion" class="main-contact__item">Beds</span>
-                        <span itemprop="postalCode" class="main-contact__item--last">SG18 9RR</span>
-                    </div>
-                    <span itemprop="telephone" class="main-contact__item"><span>T:</span> 01462 700229</span>
-                    <span itemprop="faxNumber" class="main-contact__item"><span>F:</span> 01462 701291</span>
-                    <span itemprop="email" class="main-contact__item--last">sales@abacus-leewell.co.uk</span>
-                </div>
+                <?php the_content(); ?>
             </div>
         </div>
+        <?php endwhile; endif; ?>
 
         <div class="clouds-bottom"></div>
+
+        <div class="row no-border strip-office">
+          <div class="inner-wrapper align-center">
+            <p class="large-font">GIVE US A CALL, WE LOVE TO TALK</p>
+            <p class="large-font">01462 700229</p>
+          </div>
+        </div>
+
+        <div class="row no-border strip-grey">
+          <div class="inner-wrapper">
+              <h2 class="muted-heading">Authorised Dealers</h2>
+              <ul class="inline-logos clear">
+                  <li><img src="<?php bloginfo('template_directory'); ?>/img/logo-brother.png" alt="" /></li>
+                  <li><img src="<?php bloginfo('template_directory'); ?>/img/logo-fijitsu.png" alt="" /></li>
+                  <li><img src="<?php bloginfo('template_directory'); ?>/img/logo-kaspersky.png" alt="" /></li>
+                  <li><img src="<?php bloginfo('template_directory'); ?>/img/logo-hp.png" alt="" /></li>
+                  <li><img src="<?php bloginfo('template_directory'); ?>/img/logo-microsoft.png" alt="" /></li>
+              </ul>
+          </div>
+        </div>
     </div>
 
 <?php get_footer(); ?>

@@ -46,12 +46,14 @@ header nav a.is-active {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
-  padding-bottom: 120px;
+  padding-bottom: 150px;
 }
 
 .row-hero h1 {
   text-transform: uppercase;
   text-align: center;
+  margin-top: 20px;
+  font-size: 5em;
 }
 
 /*
@@ -68,13 +70,16 @@ header nav a.is-active {
 }
 
 .clouds-bottom {
+  position: relative;
   background-image: url('img/clouds-border-bottom.png');
   background-repeat: repeat-x;
-  background-color: #9d9d9c;
+  background-color: transparent;
   height: 150px;
   width: 100%;
+  margin-bottom: -110px;
   margin-top: 50px;
   display: block;
+  z-index: 5;
 }
 
 .main-contact:before,
@@ -120,9 +125,73 @@ header nav a.is-active {
  */
 
 footer {
-  background-color: #9d9d9c;
+  background-color: #09378b;
 }
 
-footer .inline-logos li img {
+@media only screen and (min-width: 768px) {
+  .copyright {
+    margin-top: 60px;
+  }
+}
+
+footer h4 {
+  color: #9d9d9c;
+  text-transform: uppercase;
+}
+
+footer li a:link,
+footer li a:visited {
+  color: #506fac;
+}
+
+/*
+ * Strip styles
+ */
+
+.strip-office {
+  background-image: url('img/office-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  color: #fff;
+}
+
+.strip-grey {
+  background-color: #9d9d9c;
+  color: #fff;
+}
+
+.strip-white {
+  background-color: #fff;
+}
+
+/*
+ * Utility styles
+ */
+
+.large-font {
+  font-size: 2.6em;
+  line-height: 1;
+}
+
+/*
+ * Homepage
+ */
+
+.homepage .strip-office {
+  padding-top: 120px;
+}
+
+.homepage .inline-logos li img {
   max-height: 70px;
+}
+
+/*
+ * About page
+ */
+
+.about-us .row-hero {
+  background-image: url('img/hero-about-background.jpg');
+  background-position: center center;
+  color: #333;
 }

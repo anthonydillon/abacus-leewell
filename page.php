@@ -22,6 +22,9 @@ get_header(); ?>
 		</div>
 	</div>
 </div>
+
+<div class="row clouds-top no-border"></div>
+
 <div class="row no-border">
 	<div class="inner-wrapper">
 		<div class="eight-col prepend-two">

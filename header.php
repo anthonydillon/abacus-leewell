@@ -22,7 +22,7 @@
     <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,700,700italic%7CUbuntu+Mono' rel='stylesheet' type='text/css' />
 </head>
 
-<body>
+<body class="<?php echo $post_slug; ?>">
     <header class="wrapper inner-wrapper">
         <div class="twelve-col">
             <div class="logo">
@@ -40,7 +40,7 @@
                     <li><a href="<?php echo site_url(); ?>/services" <?php echo ($post_slug == 'services' ? 'class="is-active"': '')?>>Services</a></li>
                     <li><a href="<?php echo site_url(); ?>/products" <?php echo ($post_slug == 'products' ? 'class="is-active"': '')?>>Products</a></li>
                     <li><a href="<?php echo site_url(); ?>/solutions" <?php echo ($post_slug == 'solutions' ? 'class="is-active"': '')?>>Solutions</a></li>
-                    <li><a href="<?php echo site_url(); ?>/news" <?php echo ($post_slug == 'news' ? 'class="is-active"': '')?>>News centre</a></li>
+                    <li><a href="<?php echo site_url(); ?>/news" <?php echo ($post_slug == 'news-centre' ? 'class="is-active"': '')?>>News centre</a></li>
                     <li><a href="<?php echo site_url(); ?>/contact" <?php echo ($post_slug == 'contact' ? 'class="is-active"': '')?>>Contact</a></li>
                 </ul>
             </nav>
