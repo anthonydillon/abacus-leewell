@@ -60,6 +60,10 @@ header nav a.is-active {
  * Body styles
  */
 
+ .row {
+   border-bottom: 0;
+ }
+
 .clouds-top {
   background-image: url('img/clouds-border.png');
   background-repeat: repeat-x;
@@ -165,6 +169,11 @@ footer li a:visited {
   background-color: #fff;
 }
 
+.strip-blue {
+  background-color: #09378b;
+  color: #fff;
+}
+
 /*
  * Table styles
  */
@@ -206,6 +215,13 @@ table thead td {
   color: #333;
 }
 
+.about-us .row-image {
+  background-image: url('img/about-us-promo-image.jpg');
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 22%;
+}
+
 /*
  * Services page
  */
@@ -223,6 +239,10 @@ table thead td {
   background-image: url('img/project-management.jpg');
   background-size: cover;
   height: 1000px;
+}
+
+.services .section-2 strong {
+  color: #09378b;
 }
 
 .services .box {
@@ -284,4 +304,24 @@ table thead td {
 .services .box:link h3,
 .services .box:visited h3 {
   color: #fff;
+}
+
+/*
+ * Solutions page
+ */
+
+.solutions .row-hero {
+  background-image: url('img/hero-solutions-background.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+/*
+ * News page
+ */
+
+.news-centre .row-hero {
+  background-image: url('img/hero-news-background.jpg');
+  background-position: center center;
+  background-size: cover;
 }

@@ -9,7 +9,7 @@
  * @author         Anthony Diilon
  * @version        Release: 0.1
  */
- /* Template Name: Page */
+ /* Template Name: Solutions */
 
 get_header(); ?>
 

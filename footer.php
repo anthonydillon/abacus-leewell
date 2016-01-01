@@ -61,7 +61,7 @@
     <div class="row no-border strip-white">
       <div class="inner-wrapper">
         <img src="<?php bloginfo('template_directory'); ?>/img/abacus-leewell-logo.png" alt="Abacus Leewell" class="left" />
-        <p class="right copyright">&copy; 2015 Abacus Leewell. All rights reserved.</p>
+        <p class="right copyright">&copy; <?php echo date(Y); ?> Abacus Leewell. All rights reserved.</p>
       </div>
     </div>
   </footer>
