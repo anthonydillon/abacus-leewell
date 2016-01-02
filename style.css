@@ -325,3 +325,29 @@ table thead td {
   background-position: center center;
   background-size: cover;
 }
+
+/*
+ * News grid
+ */
+
+.news-grid .news-grid__item {
+  padding: 20px;
+  background: #252623;
+}
+
+.news-grid .news-grid__item:nth-child(1) {
+  background: #87B436;
+}
+
+.news-grid .news-grid__item:nth-child(2) {
+  background: #4B641E;
+}
+
+.news-grid .news-grid__link {
+  color: #ddd;
+}
+
+.news-grid .news-grid__link:hover {
+  text-decoration: none;
+  color: #fff;
+}

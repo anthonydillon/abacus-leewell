@@ -7,6 +7,7 @@
  * @author         Anthony Diilon
  * @version        Release: 0.1
  */
+ /* Template Name: News */
 
 get_header(); ?>
 
@@ -19,16 +20,24 @@ get_header(); ?>
 		</div>
 	</div>
 </div>
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
+<div class="row clouds-top"></div>
+
 	<div class="row border">
 		<div class="inner-wrapper">
-			<div class="eight-col prepend-two">
-				<h2><?php the_title(); ?></h2>
-				<p><?php the_content(); ?></p>
+				<ul class="news-grid no-bullets">
+				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+					<li class="news-grid__item four-col">
+						<a href="<?php the_permalink(); ?>" class="news-grid__link">
+							<h2 class="news-grid__title"><?php the_title(); ?></h2>
+							<p class="news-grid__excerpt"><?php the_excerpt(); ?></p>
+						</a>
+					</li>
+				<?php endwhile; endif; ?>
+				</ul>
 			</div>
 		</div>
 	</div>
-<?php endwhile; endif; ?>
 
 
 
