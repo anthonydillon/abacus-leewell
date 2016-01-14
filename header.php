@@ -34,14 +34,47 @@
                 <p>T: <span>01462 700229</span></p>
             </div>
         </div>
-            <nav role="navigation" class="nav-primary">
-                <ul class="inline-list">
-                    <li><a href="<?php echo site_url(); ?>/about-us" <?php echo ($post_slug == 'about-us' ? 'class="is-active"': '')?>>About us</a></li>
-                    <li><a href="<?php echo site_url(); ?>/services" <?php echo ($post_slug == 'services' ? 'class="is-active"': '')?>>Services</a></li>
-                    <li><a href="<?php echo site_url(); ?>/products" <?php echo ($post_slug == 'products' ? 'class="is-active"': '')?>>Products</a></li>
-                    <li><a href="<?php echo site_url(); ?>/solutions" <?php echo ($post_slug == 'solutions' ? 'class="is-active"': '')?>>Solutions</a></li>
-                    <li><a href="<?php echo site_url(); ?>/news-centre" <?php echo ($post_slug == 'news-centre' ? 'class="is-active"': '')?>>News centre</a></li>
-                    <li><a href="<?php echo site_url(); ?>/contact" <?php echo ($post_slug == 'contact' ? 'class="is-active"': '')?>>Contact</a></li>
-                </ul>
-            </nav>
+        <nav role="navigation" class="nav-primary">
+            <ul class="inline-list">
+                <li><a href="<?php echo site_url(); ?>/about-us" <?php echo ($post_slug == 'about-us' ? 'class="is-active"': '')?>>About us</a></li>
+                <li><a href="<?php echo site_url(); ?>/services" <?php echo ($post_slug == 'services' ? 'class="is-active"': '')?>>Services</a></li>
+                <li><a href="<?php echo site_url(); ?>/products" <?php echo ($post_slug == 'products' ? 'class="is-active"': '')?>>Products</a></li>
+                <li><a href="<?php echo site_url(); ?>/solutions" <?php echo ($post_slug == 'solutions' ? 'class="is-active"': '')?>>Solutions</a></li>
+                <li><a href="<?php echo site_url(); ?>/news-centre" <?php echo ($post_slug == 'news-centre' ? 'class="is-active"': '')?>>News centre</a></li>
+                <li><a href="<?php echo site_url(); ?>/contact" <?php echo ($post_slug == 'contact' ? 'class="is-active"': '')?>>Contact</a></li>
+            </ul>
+        </nav>
+
+        <?php
+        // If the page has children, display the children in the nav.
+        // If the page has a parent, display the children of the parent in the nav.
+        // If the page doesn't have children, or a parent, don't display the nav.
+        // If the page is 'resources', or a descendant, don't display the nav.
+        // If the page is 'search', don't display the nav.
+        $pages = get_pages("sort_column=menu_order&depth=1&child_of=" . $post->ID) ? $post->ID : $post->post_parent;
+        $current = $post;
+        $output = '';
+        $active = '';
+        $parents = array();
+        if ($pages && !is_search()) { ?>
+      		<nav role="navigation" class="nav-secondary">
+      			<ul class="nav-secondary__breadcrumb">
+      				<?php
+      					while($current->post_parent) {
+      						$current = get_post($current->post_parent);
+      						$output = '<li><a href="' . get_permalink($current) . '">'.get_the_title($current).'</a> &rsaquo;</li>' . $output;
+      					}
+      					$children = get_pages('child_of='.$post->ID);
+      					if(count( $children ) != 0) {
+      						$active = '<li class="active"><a href="' . get_permalink($post->ID) . '">'.get_the_title($post->ID).'</a> &rsaquo;</li>';
+      					}
+      					echo $output . $active;
+      				?>
+      			</ul>
+      			<ul class="nav-secondary__list">
+      				<?php wp_list_pages('sort_column=menu_order&title_li=&depth=1&child_of=' . $pages .'&current_page_item=active'); ?>
+      			</ul>
+      		</nav>
+        <?php } ?>
+
     </header>
