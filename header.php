@@ -17,9 +17,9 @@
     <link rel="icon" type="image/png" href="<?php bloginfo('template_directory'); ?>/favicon.ico" />
 
     <!-- stylesheets -->
-    <link rel="stylesheet" type="text/css" media="screen" href="https://assets.ubuntu.com/v1/vanilla-framework-version-0.0.55.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://assets.ubuntu.com/v1/vanilla-framework-version-0.0.61.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="<?php bloginfo('template_directory'); ?>/style.css" />
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,700,700italic%7CUbuntu+Mono' rel='stylesheet' type='text/css' />
 </head>
 
 <body class="<?php echo $post_slug; ?>">
@@ -46,11 +46,6 @@
         </nav>
 
         <?php
-        // If the page has children, display the children in the nav.
-        // If the page has a parent, display the children of the parent in the nav.
-        // If the page doesn't have children, or a parent, don't display the nav.
-        // If the page is 'resources', or a descendant, don't display the nav.
-        // If the page is 'search', don't display the nav.
         $pages = get_pages("sort_column=menu_order&depth=1&child_of=" . $post->ID) ? $post->ID : $post->post_parent;
         $current = $post;
         $output = '';

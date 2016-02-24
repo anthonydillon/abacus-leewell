@@ -125,7 +125,7 @@ Tags: blue, white, abacus leewell, clouds, tech
   height: 150px;
   width: 100%;
   margin-bottom: -110px;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   display: block;
   z-index: 5;
 }
@@ -245,7 +245,7 @@ table thead td {
   padding-top: 120px;
 }
 
-.homepage .inline-logos li img {
+.inline-logos li img {
   max-height: 70px;
 }
 
@@ -395,3 +395,35 @@ table thead td {
   text-decoration: none;
   color: #fff;
 }
+
+/*
+ * Slider
+ */
+
+ .slider img {
+   margin: 0 auto 20px;
+ }
+
+ .slick-arrow {
+   text-indent: -9999px;
+   height: 137px;
+   width: 68px;
+   position: absolute;
+   top: calc(50% - 68px);
+ }
+
+ .slick-arrow:hover {
+   background-color: white;
+ }
+
+ .slick-next,
+ .slick-next:hover {
+   background: url('img/icon-next.png');
+   right: -70px;
+ }
+
+ .slick-prev,
+ .slick-prev:hover {
+   background: url('img/icon-previous.png');
+   left: -70px;
+ }
