@@ -104,8 +104,21 @@ Tags: blue, white, abacus leewell, clouds, tech
  * Body styles
  */
 
+ body {
+   font-family: 'Exo 2', sans-serif;
+   font-weight: 400;
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+   font-family: 'Exo 2', sans-serif;
+ }
+
  .row {
    border-bottom: 0;
+ }
+
+ .row-hero h1 {
+   font-weight: 700;
  }
 
 .clouds-top {
@@ -249,6 +262,15 @@ table thead td {
   max-height: 70px;
 }
 
+.homepage .slider-title {
+  color: #092f87;
+}
+
+.homepage .row-hero {
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
 /*
  * About page
  */
@@ -256,7 +278,6 @@ table thead td {
 .about-us .row-hero {
   background-image: url('img/hero-about-background.jpg');
   background-position: center center;
-  color: #333;
 }
 
 .about-us .row-image {
@@ -290,7 +311,7 @@ table thead td {
 }
 
 .services .box {
-  min-height: 200px;
+  min-height: 120px;
   position: absolute;
   width: 300px;
   border-radius: 20px;
@@ -302,6 +323,10 @@ table thead td {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
 
+.services .box .no-bullets {
+  margin-bottom: 0;
+}
+
 .services .box:hover {
   background: -moz-linear-gradient(top,  rgba(56,82,167,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(top,  rgba(56,82,167,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -310,26 +335,27 @@ table thead td {
 }
 
 .services .box.plan {
+  top: 100px;
   left: calc(50% - 180px);
 }
 
 .services .box.design-implement {
-  top: 300px;
+  top: 360px;
   right: 120px;
 }
 
 .services .box.manage {
-  top: 600px;
+  top: 660px;
   right: 150px;
 }
 
 .services .box.optimise {
-  top: 300px;
+  top: 360px;
   left: 100px;
 }
 
 .services .box.support {
-  top: 600px;
+  top: 660px;
   left: 130px;
 }
 
@@ -337,6 +363,7 @@ table thead td {
   color: #fff;
   font-weight: 700;
   text-decoration: none;
+  margin-bottom: 0;
 }
 
 .services .box:link,
@@ -358,6 +385,50 @@ table thead td {
   background-image: url('img/hero-solutions-background.jpg');
   background-position: center center;
   background-size: cover;
+}
+
+.solutions .row-solution-hovers .downdown-container {
+  display: flex;
+}
+
+.solutions .row-solution-hovers .dropdown {
+  position: relative;
+  list-style: none;
+  float: left;
+  margin-right: 10px;
+  background: #9D9D9C;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 2px 0 2px rgba(0, 0, 0, .2);
+  padding: 10px;
+  flex: 1;
+  text-align: center;
+}
+
+.solutions .row-solution-hovers .dropdown ul {
+  list-style:  none;
+  position: absolute;
+  visibility: hidden;
+  z-index: 10;
+  background: rgba(255, 255, 255, .5);
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, .2);
+  padding-top: 10px;
+  margin-left: -10px;
+  top: 43px;
+  color: #333;
+  width: 100%;
+}
+
+.solutions .row-solution-hovers .dropdown:hover ul {
+  visibility: visible;
+}
+
+.solutions .row-image {
+    background-image: url('img/office-background.jpg');
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 22%;
 }
 
 /*
@@ -427,3 +498,12 @@ table thead td {
    background: url('img/icon-previous.png');
    left: -70px;
  }
+
+ /*
+  * contact-info
+  */
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 1em;
+}

@@ -17,6 +17,7 @@
     <link rel="icon" type="image/png" href="<?php bloginfo('template_directory'); ?>/favicon.ico" />
 
     <!-- stylesheets -->
+    <link href='https://fonts.googleapis.com/css?family=Exo+2:400,700,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" media="screen" href="https://assets.ubuntu.com/v1/vanilla-framework-version-0.0.61.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="<?php bloginfo('template_directory'); ?>/style.css" />
@@ -42,6 +43,7 @@
                 <li><a href="<?php echo site_url(); ?>/solutions" <?php echo ($post_slug == 'solutions' ? 'class="is-active"': '')?>>Solutions</a></li>
                 <li><a href="<?php echo site_url(); ?>/news-centre" <?php echo ($post_slug == 'news-centre' ? 'class="is-active"': '')?>>News centre</a></li>
                 <li><a href="<?php echo site_url(); ?>/contact" <?php echo ($post_slug == 'contact' ? 'class="is-active"': '')?>>Contact</a></li>
+                <li><a href="<?php echo site_url(); ?>/book-a-repair" <?php echo ($post_slug == 'book-a-repair' ? 'class="is-active"': '')?>>Book a Repair</a></li>
             </ul>
         </nav>
 

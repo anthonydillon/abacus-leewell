@@ -25,10 +25,74 @@ get_header(); ?>
 
 <div class="row clouds-top no-border"></div>
 
-<div class="row no-border">
+<div class="row no-border no-padding-bottom">
 	<div class="inner-wrapper">
 		<div class="eight-col prepend-two">
-			<?php the_content(); ?>
+			<?php the_field('section_1', false, false); ?>
+		</div>
+	</div>
+</div>
+
+<div class="row row-solution-hovers">
+	<div class="inner-wrapper">
+		<ul class="downdown-container">
+			<li class="dropdown">Managed Print Services
+				<ul>
+					<li>Consolidated supply</li>
+					<li>Waste reduction</li>
+					<li>High quality devices</li>
+				</ul>
+			</li>
+			<li class="dropdown">Mobility
+				<ul>
+					<li>BYOD</li>
+					<li>Software</li>
+					<li>Mobile Security</li>
+				</ul>
+			</li>
+			<li class="dropdown">Workspace
+				<ul>
+					<li>Networking</li>
+					<li>Security &ndash; endpoint &amp; network</li>
+					<li>Refresh</li>
+					<li>Printing</li>
+				</ul>
+			</li>
+			<li class="dropdown">Cloud
+				<ul>
+					<li>Productivity Tools</li>
+					<li>Back up as a Service</li>
+					<li>Software as a Service</li>
+					<li>Managed</li>
+					<li>Cloud managed networking</li>
+				</ul>
+			</li>
+			<li class="dropdown">Networking
+				<ul>
+					<li>Wireless/Wired</li>
+					<li>LAN/WAN</li>
+					<li>Cabling</li>
+					<li>IP Telephony</li>
+					<li>Security</li>
+					<li>Cloud managed</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<div class="row row-image">
+	<div class="inner-wrapper">
+		<div class="eight-col prepend-two">
+
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="inner-wrapper">
+		<div class="eight-col prepend-two">
+			<?php the_field('section_2', false, false); ?>
 		</div>
 	</div>
 </div>

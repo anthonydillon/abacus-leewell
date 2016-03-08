@@ -38,45 +38,45 @@ get_header(); ?>
     <a href="#" class="box plan">
       <h3>PLAN</h3>
       <ul class="no-bullets">
-        <li>AUDIT</li>
-        <li>DISCOVERY</li>
-        <li>REQUIREMENTS GATHERING</li>
+        <li class="no-margin-bottom">AUDIT</li>
+        <li class="no-margin-bottom">DISCOVERY</li>
+        <li class="no-margin-bottom">REQUIREMENTS GATHERING</li>
       </ul>
     </a>
 
     <a href="#" class="box design-implement">
       <h3>DESIGN &amp; IMPLEMENT</h3>
       <ul class="no-bullets">
-        <li>CONFIGURE/BUILD INSTALL</li>
-        <li>DEPLOY/ROLL-OUT</li>
-        <li>INTEGRATE</li>
+        <li class="no-margin-bottom">CONFIGURE/BUILD INSTALL</li>
+        <li class="no-margin-bottom">DEPLOY/ROLL-OUT</li>
+        <li class="no-margin-bottom">INTEGRATE</li>
       </ul>
     </a>
 
     <a href="#" class="box manage">
       <h3>MANAGE</h3>
       <ul class="no-bullets">
-        <li>PEFORMANCE MONITORING &amp; REPORTING</li>
-        <li>PERFORMANCE MANAGEMENT</li>
-        <li>OUTSOURCING</li>
+        <li class="no-margin-bottom">PEFORMANCE MONITORING &amp; REPORTING</li>
+        <li class="no-margin-bottom">PERFORMANCE MANAGEMENT</li>
+        <li class="no-margin-bottom">OUTSOURCING</li>
       </ul>
     </a>
 
     <a href="#" class="box support">
       <h3>SUPPORT</h3>
       <ul class="no-bullets">
-        <li>MAINTENACE &amp; REPAIR</li>
-        <li>BREAK FIX</li>
+        <li class="no-margin-bottom">MAINTENACE &amp; REPAIR</li>
+        <li class="no-margin-bottom">BREAK FIX</li>
       </ul>
     </a>
 
     <a href="#" class="box optimise">
       <h3>OPTIMISE</h3>
       <ul class="no-bullets">
-        <li>LEVERAGING INFRASTRUCTURE</li>
-        <li>THROUGH TECHNOLOGY</li>
-        <li>ADVANCEMENTS</li>
-        <li>ETHICAL</li>
+        <li class="no-margin-bottom">LEVERAGING INFRASTRUCTURE</li>
+        <li class="no-margin-bottom">THROUGH TECHNOLOGY</li>
+        <li class="no-margin-bottom">ADVANCEMENTS</li>
+        <li class="no-margin-bottom">ETHICAL</li>
       </ul>
     </a>
   </div>

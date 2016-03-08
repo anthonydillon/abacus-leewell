@@ -23,33 +23,33 @@ get_header(); ?>
         <div class="row clouds-top no-border"></div>
         <div class="row no-border">
           <div class="inner-wrapper">
-            <div class="slider">
-              <div class="twelve-col">
-                <div class="four-col align-center">
+            <div class="slider main-contact">
+              <div class="twelve-col no-margin-bottom">
+                <div class="four-col align-center no-margin-bottom">
                   <img src="<?php bloginfo('template_directory'); ?>/img/icon-services.png" alt="" />
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus, lacus id eleifend aliquam, ipsum ante vehicula massa, non laoreet dolor arcu vel dui.</p>
+                  <h2 class="slider-title">Services</h2>
                 </div>
-                <div class="four-col align-center">
+                <div class="four-col align-center no-margin-bottom">
                   <img src="<?php bloginfo('template_directory'); ?>/img/icon-products.png" alt="" />
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus, lacus id eleifend aliquam, ipsum ante vehicula massa, non laoreet dolor arcu vel dui.</p>
+                  <h2 class="slider-title">Products</h2>
                 </div>
-                <div class="four-col last-col align-center">
+                <div class="four-col last-col align-center no-margin-bottom">
                   <img src="<?php bloginfo('template_directory'); ?>/img/icon-solutions.png" alt="" />
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus, lacus id eleifend aliquam, ipsum ante vehicula massa, non laoreet dolor arcu vel dui.</p>
+                  <h2 class="slider-title">Solutions</h2>
                 </div>
               </div>
-              <div class="twelve-col">
-                <div class="four-col align-center">
+              <div class="twelve-col no-margin-bottom">
+                <div class="four-col align-center no-margin-bottom">
                   <img src="<?php bloginfo('template_directory'); ?>/img/icon-news.png" alt="" />
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus, lacus id eleifend aliquam, ipsum ante vehicula massa, non laoreet dolor arcu vel dui.</p>
+                  <h2 class="slider-title">News</h2>
                 </div>
-                <div class="four-col align-center">
+                <div class="four-col align-center no-margin-bottom">
                   <img src="<?php bloginfo('template_directory'); ?>/img/icon-repairs.png" alt="" />
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus, lacus id eleifend aliquam, ipsum ante vehicula massa, non laoreet dolor arcu vel dui.</p>
+                  <h2 class="slider-title">Repairs</h2>
                 </div>
-                <div class="four-col last-col align-center">
+                <div class="four-col last-col align-center no-margin-bottom">
                   <img src="<?php bloginfo('template_directory'); ?>/img/icon-contact.png" alt="" />
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus, lacus id eleifend aliquam, ipsum ante vehicula massa, non laoreet dolor arcu vel dui.</p>
+                  <h2 class="slider-title">Contact</h2>
                 </div>
               </div>
             </div>
