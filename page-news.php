@@ -22,13 +22,14 @@ get_header(); ?>
 </div>
 
 <div class="row clouds-top"></div>
-
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+<?php $count = 0; ?>
+<?php if (have_posts()) : while (have_posts()) : the_post(); $count++; ?>
 	<div class="row border">
 		<div class="inner-wrapper">
 				<ul class="news-grid no-bullets">
-					<li class="news-grid__item four-col">
+					<li class="news-grid__item four-col<?php if ($count % 3 == 0) { echo ' last-col'; }?>">
 						<a href="<?php the_permalink(); ?>" class="news-grid__link">
+							<p><?php echo '|'+$count+'|';?></p>
 							<h2 class="news-grid__title"><?php the_title(); ?></h2>
 							<p class="news-grid__excerpt"><?php the_excerpt(); ?></p>
 						</a>

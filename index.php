@@ -26,8 +26,9 @@ get_header(); ?>
 	<div class="row border">
 		<div class="inner-wrapper">
 				<ul class="news-grid no-bullets">
-				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-					<li class="news-grid__item four-col">
+				<?php $count = 0; ?>
+				<?php if (have_posts()) : while (have_posts()) : the_post(); $count++; ?>
+					<li class="news-grid__item four-col<?php if ($count % 3 == 0) { echo ' last-col'; }?>">
 						<a href="<?php the_permalink(); ?>" class="news-grid__link">
 							<h2 class="news-grid__title"><?php the_title(); ?></h2>
 							<p class="news-grid__excerpt"><?php the_excerpt(); ?></p>

@@ -64,6 +64,12 @@ Tags: blue, white, abacus leewell, clouds, tech
   float: left;
 }
 
+.nav-secondary__list li,
+.nav-secondary__breadcrumb li {
+  float: left;
+  margin-right: 10px;
+}
+
 .nav-secondary__breadcrumb a:link,
 .nav-secondary__breadcrumb a:visited {
   margin-right: 10px;

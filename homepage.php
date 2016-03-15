@@ -28,28 +28,34 @@ get_header(); ?>
                 <div class="four-col align-center no-margin-bottom">
                   <img src="<?php bloginfo('template_directory'); ?>/img/icon-services.png" alt="" />
                   <h2 class="slider-title">Services</h2>
+                  <p>Break-fix to Managed Remote Support and all sizes of project delivery</p>
                 </div>
                 <div class="four-col align-center no-margin-bottom">
                   <img src="<?php bloginfo('template_directory'); ?>/img/icon-products.png" alt="" />
                   <h2 class="slider-title">Products</h2>
+                  <p>We partner with the world leading IT hardware manufacturers and software vendors</p>
                 </div>
                 <div class="four-col last-col align-center no-margin-bottom">
                   <img src="<?php bloginfo('template_directory'); ?>/img/icon-solutions.png" alt="" />
                   <h2 class="slider-title">Solutions</h2>
+                  <p>High quality infrastructure solutions to improve productivity (Office 365) to cost saving print solutions.</p>
                 </div>
               </div>
               <div class="twelve-col no-margin-bottom">
                 <div class="four-col align-center no-margin-bottom">
                   <img src="<?php bloginfo('template_directory'); ?>/img/icon-news.png" alt="" />
-                  <h2 class="slider-title">News</h2>
+                  <h2 class="slider-title">News centre</h2>
+                  <p>The latest Abacus Leewell news including our Blog, Case Studies and social media updates.</p>
                 </div>
                 <div class="four-col align-center no-margin-bottom">
                   <img src="<?php bloginfo('template_directory'); ?>/img/icon-repairs.png" alt="" />
                   <h2 class="slider-title">Repairs</h2>
+                  <p>Book a repair &mdash; server, laptop, desktop, printer and much, much more.</p>
                 </div>
                 <div class="four-col last-col align-center no-margin-bottom">
                   <img src="<?php bloginfo('template_directory'); ?>/img/icon-contact.png" alt="" />
                   <h2 class="slider-title">Contact</h2>
+                  <p>All our contact details in one place</p>
                 </div>
               </div>
             </div>
@@ -59,8 +65,12 @@ get_header(); ?>
 
         <div class="row no-border strip-office">
           <div class="inner-wrapper align-center">
-            <p class="large-font">GIVE US A CALL, WE LOVE TO TALK</p>
-            <p class="large-font">01462 700229</p>
+            <div class="eight-col prepend-two">
+              <h2>Abacus Leewell have been delivering IT &amp; office solutions since 1969</h2>
+              <p>We partner with our customers to deliver the best in class solutions, that fully address the customer&rsquo;s business need and meets the timescales and budget available</p>
+              <p class="large-font">GIVE US A CALL, WE LOVE TO TALK</p>
+              <p class="large-font">01462 700229</p>
+            </div>
           </div>
         </div>
 
