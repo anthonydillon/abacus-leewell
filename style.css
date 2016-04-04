@@ -268,8 +268,32 @@ table thead td {
   max-height: 70px;
 }
 
-.homepage .slider-title {
+.inline-logos .inline-logos__item {
+  width: 60px;
+}
+
+.inline-logos .inline-logos__image {
+  max-width: 60px;
+}
+
+.homepage .slider-title,
+.homepage .slider-title:hover {
   color: #092f87;
+  text-decoration: none;
+}
+
+.homepage .slider-image {
+  max-width: 100px;
+}
+
+.homepage .slider a:hover {
+  text-decoration: none;
+}
+
+.homepage .slider-text,
+.homepage .slider-text:hover {
+  color: #333;
+  text-decoration: none;
 }
 
 .homepage .row-hero {

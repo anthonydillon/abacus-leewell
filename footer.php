@@ -22,14 +22,12 @@
             <li><a href="/services/repair">Repair</a></li>
             <li><a href="/services/remote-support">Remote Support</a></li>
             <li><a href="/services/managed-services">Managed Services</a></li>
-            <li><a href="/services/consumables">Consumables</a></li>
           </ul>
         </div>
         <div class="two-col">
           <h4>Products</h4>
           <ul class="no-bullets">
-            <li><a href="/products/print">Print</a></li>
-            <li><a href="/products/workspace">Workspace</a></li>
+            <li><a href="/products/stationery/">Stationery</a></li>
             <li><a href="/products/consumables">Consumables</a></li>
           </ul>
         </div>
@@ -38,15 +36,16 @@
           <ul class="no-bullets">
             <li><a href="/solutions/managed-print-service">Managed Print Service</a></li>
             <li><a href="/solutions/cloud">Cloud</a></li>
-            <li><a href="/solutions/mobility">Mobility</a></li>
             <li><a href="/solutions/networking">Networking</a></li>
-            <li><a href="/solutions/workspace">Workspace</a></li>
           </ul>
         </div>
         <div class="two-col">
-          <h4>News</h4>
+          <h4>News Centre</h4>
           <ul class="no-bullets">
             <li><a href="/news-centre">Latest news</a></li>
+            <li><a href="/news-centre">Blog</a></li>
+            <li><a href="/news-centre">Case studies</a></li>
+            <li><a href="/news-centre">Social media</a></li>
           </ul>
         </div>
         <div class="two-col last-col">

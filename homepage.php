@@ -26,36 +26,48 @@ get_header(); ?>
             <div class="slider main-contact">
               <div class="twelve-col no-margin-bottom">
                 <div class="four-col align-center no-margin-bottom">
-                  <img src="<?php bloginfo('template_directory'); ?>/img/icon-services.png" alt="" />
-                  <h2 class="slider-title">Services</h2>
-                  <p>Break-fix to Managed Remote Support and all sizes of project delivery</p>
+                  <a href="<?php echo site_url(); ?>/services">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/icon-services.png" alt="" class="slider-image" />
+                    <h2 class="slider-title">Services</h2>
+                    <p class="slider-text">Break-fix to Managed Remote Support and all sizes of project delivery</p>
+                  </a>
                 </div>
                 <div class="four-col align-center no-margin-bottom">
-                  <img src="<?php bloginfo('template_directory'); ?>/img/icon-products.png" alt="" />
-                  <h2 class="slider-title">Products</h2>
-                  <p>We partner with the world leading IT hardware manufacturers and software vendors</p>
+                  <a href="<?php echo site_url(); ?>/products">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/icon-products.png" alt="" class="slider-image" />
+                    <h2 class="slider-title">Products</h2>
+                    <p class="slider-text">We partner with the world leading IT hardware manufacturers and software vendors</p>
+                  </a>
                 </div>
                 <div class="four-col last-col align-center no-margin-bottom">
-                  <img src="<?php bloginfo('template_directory'); ?>/img/icon-solutions.png" alt="" />
-                  <h2 class="slider-title">Solutions</h2>
-                  <p>High quality infrastructure solutions to improve productivity (Office 365) to cost saving print solutions.</p>
+                  <a href="<?php echo site_url(); ?>/solutions">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/icon-solutions.png" alt="" class="slider-image" />
+                    <h2 class="slider-title">Solutions</h2>
+                    <p class="slider-text">High quality infrastructure solutions to improve productivity (Office 365) to cost saving print solutions.</p>
+                  </a>
                 </div>
               </div>
               <div class="twelve-col no-margin-bottom">
                 <div class="four-col align-center no-margin-bottom">
-                  <img src="<?php bloginfo('template_directory'); ?>/img/icon-news.png" alt="" />
-                  <h2 class="slider-title">News centre</h2>
-                  <p>The latest Abacus Leewell news including our Blog, Case Studies and social media updates.</p>
+                  <a href="<?php echo site_url(); ?>/news-centre">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/icon-news.png" alt="" class="slider-image" />
+                    <h2 class="slider-title">News centre</h2>
+                    <p class="slider-text">The latest Abacus Leewell news including our Blog, Case Studies and social media updates.</p>
+                  </a>
                 </div>
                 <div class="four-col align-center no-margin-bottom">
-                  <img src="<?php bloginfo('template_directory'); ?>/img/icon-repairs.png" alt="" />
-                  <h2 class="slider-title">Repairs</h2>
-                  <p>Book a repair &mdash; server, laptop, desktop, printer and much, much more.</p>
+                  <a href="<?php echo site_url(); ?>/repairs">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/icon-repairs.png" alt="" class="slider-image" />
+                    <h2 class="slider-title">Repairs</h2>
+                    <p class="slider-text">Book a repair &mdash; server, laptop, desktop, printer and much, much more.</p>
+                  </a>
                 </div>
                 <div class="four-col last-col align-center no-margin-bottom">
-                  <img src="<?php bloginfo('template_directory'); ?>/img/icon-contact.png" alt="" />
-                  <h2 class="slider-title">Contact</h2>
-                  <p>All our contact details in one place</p>
+                  <a href="<?php echo site_url(); ?>/contact-us">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/icon-contact.png" alt="" class="slider-image" />
+                    <h2 class="slider-title">Contact</h2>
+                    <p class="slider-text">All our contact details in one place</p>
+                  </a>
                 </div>
               </div>
             </div>
@@ -75,8 +87,8 @@ get_header(); ?>
         </div>
 
         <div class="row no-border strip-grey">
-          <div class="inner-wrapper">
-              <h2 class="muted-heading">Authorised Dealers</h2>
+          <div>
+              <h2 class="muted-heading">Authorised Partners</h2>
               <ul class="inline-logos clear">
         				<li class="inline-logos__item"><img src="<?php bloginfo('template_directory'); ?>/img/logo-avg.png" alt="AVG" class="inline-logos__image" /></li>
         				<li class="inline-logos__item"><img src="<?php bloginfo('template_directory'); ?>/img/logo-brother.png" alt="Brother" class="inline-logos__image" /></li>
