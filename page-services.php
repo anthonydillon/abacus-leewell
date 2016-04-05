@@ -35,7 +35,7 @@ get_header(); ?>
 
 <div class="row row-services">
 	<div class="inner-wrapper">
-    <a href="#" class="box plan">
+    <a href="#plan" class="box plan">
       <h3>PLAN</h3>
       <ul class="no-bullets">
         <li class="no-margin-bottom">AUDIT</li>
@@ -44,7 +44,7 @@ get_header(); ?>
       </ul>
     </a>
 
-    <a href="#" class="box design-implement">
+    <a href="#design" class="box design-implement">
       <h3>DESIGN &amp; IMPLEMENT</h3>
       <ul class="no-bullets">
         <li class="no-margin-bottom">CONFIGURE/BUILD INSTALL</li>
@@ -53,7 +53,7 @@ get_header(); ?>
       </ul>
     </a>
 
-    <a href="#" class="box manage">
+    <a href="#manage" class="box manage">
       <h3>MANAGE</h3>
       <ul class="no-bullets">
         <li class="no-margin-bottom">PEFORMANCE MONITORING &amp; REPORTING</li>
@@ -62,7 +62,7 @@ get_header(); ?>
       </ul>
     </a>
 
-    <a href="#" class="box support">
+    <a href="#support" class="box support">
       <h3>SUPPORT</h3>
       <ul class="no-bullets">
         <li class="no-margin-bottom">MAINTENACE &amp; REPAIR</li>
@@ -70,7 +70,7 @@ get_header(); ?>
       </ul>
     </a>
 
-    <a href="#" class="box optimise">
+    <a href="#optimise" class="box optimise">
       <h3>OPTIMISE</h3>
       <ul class="no-bullets">
         <li class="no-margin-bottom">LEVERAGING INFRASTRUCTURE</li>
