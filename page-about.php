@@ -51,6 +51,16 @@ get_header(); ?>
 	</div>
 </div>
 
+<div class="row row-image--eco"></div>
+
+<div class="row">
+	<div class="inner-wrapper">
+		<div class="eight-col prepend-two">
+			<?php the_field('section_4', false, false); ?>
+		</div>
+	</div>
+</div>
+
 <?php endwhile; else : ?>
 	<div class="row row-hero strip-dark">
 		<div class="inner-wrapper">

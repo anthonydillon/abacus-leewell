@@ -321,6 +321,13 @@ table thead td {
   padding-bottom: 22%;
 }
 
+.about-us .row-image--eco {
+  background-image: url('img/eco-plant.jpg');
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 22%;
+}
+
 /*
  * Services page
  */
@@ -409,6 +416,19 @@ table thead td {
 .services .box:link h3,
 .services .box:visited h3 {
   color: #fff;
+}
+
+.managed-print-services .row-hero {
+  background-image: url('img/managed-print-image-promo.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.networking .row-hero {
+  background-image: url('img/hero-networking-background.jpg');
+  background-position: center center;
+  background-size: cover;
+  color: #333;
 }
 
 /*
