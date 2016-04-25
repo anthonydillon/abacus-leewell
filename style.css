@@ -264,6 +264,11 @@ table thead td {
  * Homepage
  */
 
+.homepage .row-hero {
+  background-image: url('img/homepage-header.jpg');
+  background-position: center center;
+}
+
 .homepage .strip-office {
   padding-top: 120px;
 }

@@ -16,7 +16,7 @@ get_header(); ?>
     <div class="wrapper">
         <div class="row row-hero no-border">
             <div class="inner-wrapper align-center">
-                <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/video-play.svg" alt="Play video" width="150" height="150" /></a>
+                <!-- <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/video-play.svg" alt="Play video" width="150" height="150" /></a> -->
             </div>
         </div>
 
