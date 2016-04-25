@@ -25,14 +25,15 @@ get_header(); ?>
 
 	<div class="row border">
 		<div class="inner-wrapper">
-				<ul class="news-grid no-bullets">
-				<?php $count = 0; ?>
-				<?php if (have_posts()) : while (have_posts()) : the_post(); $count++; ?>
-					<li class="news-grid__item four-col<?php if ($count % 3 == 0) { echo ' last-col'; }?>">
-						<a href="<?php the_permalink(); ?>" class="news-grid__link">
-							<h2 class="news-grid__title"><?php the_title(); ?></h2>
-							<p class="news-grid__excerpt"><?php the_excerpt(); ?></p>
+			<div class="four-col">
+				<h2>Blog</h2>
+				<ul class="list no-bullets">
+				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+					<li>
+						<a href="<?php the_permalink(); ?>">
+							<h3><?php the_title(); ?></h3>
 						</a>
+						<p><?php the_time( get_option( 'date_format' ) ); ?></p>
 					</li>
 				<?php endwhile; endif; ?>
 				</ul>

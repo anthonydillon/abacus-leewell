@@ -36,12 +36,14 @@ get_header(); ?>
 <div class="row row-solution-hovers">
 	<div class="inner-wrapper">
 		<ul class="downdown-container">
-			<li class="dropdown">Managed Print Services
-				<ul>
-					<li>Consolidated supply</li>
-					<li>Waste reduction</li>
-					<li>High quality devices</li>
-				</ul>
+			<li class="dropdown">
+				<a href="<?php echo site_url(); ?>/solutions/managed-print-services/">Managed Print Services
+					<ul>
+						<li>Consolidated supply</li>
+						<li>Waste reduction</li>
+						<li>High quality devices</li>
+					</ul>
+				</a>
 			</li>
 			<li class="dropdown">Mobility
 				<ul>
@@ -58,34 +60,30 @@ get_header(); ?>
 					<li>Printing</li>
 				</ul>
 			</li>
-			<li class="dropdown">Cloud
-				<ul>
-					<li>Productivity Tools</li>
-					<li>Back up as a Service</li>
-					<li>Software as a Service</li>
-					<li>Managed</li>
-					<li>Cloud managed networking</li>
-				</ul>
+			<li class="dropdown">
+				<a href="<?php echo site_url(); ?>/solutions/cloud/">Cloud
+					<ul>
+						<li>Productivity Tools</li>
+						<li>Back up as a Service</li>
+						<li>Software as a Service</li>
+						<li>Managed</li>
+						<li>Cloud managed networking</li>
+					</ul>
+				</a>
 			</li>
-			<li class="dropdown">Networking
-				<ul>
-					<li>Wireless/Wired</li>
-					<li>LAN/WAN</li>
-					<li>Cabling</li>
-					<li>IP Telephony</li>
-					<li>Security</li>
-					<li>Cloud managed</li>
-				</ul>
+			<li class="dropdown">
+				<a href="<?php echo site_url(); ?>/solutions/networking/">Networking
+					<ul>
+						<li>Wireless/Wired</li>
+						<li>LAN/WAN</li>
+						<li>Cabling</li>
+						<li>IP Telephony</li>
+						<li>Security</li>
+						<li>Cloud managed</li>
+					</ul>
+				</a>
 			</li>
 		</ul>
-	</div>
-</div>
-
-<div class="row row-image">
-	<div class="inner-wrapper">
-		<div class="eight-col prepend-two">
-
-		</div>
 	</div>
 </div>
 
