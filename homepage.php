@@ -56,14 +56,14 @@ get_header(); ?>
                   </a>
                 </div>
                 <div class="four-col align-center no-margin-bottom">
-                  <a href="<?php echo site_url(); ?>/repairs">
+                  <a href="<?php echo site_url(); ?>/services/maintenance-repair/">
                     <img src="<?php bloginfo('template_directory'); ?>/img/icon-repairs.png" alt="" class="slider-image" />
                     <h2 class="slider-title">Repairs</h2>
                     <p class="slider-text">Book a repair &mdash; server, laptop, desktop, printer and much, much more.</p>
                   </a>
                 </div>
                 <div class="four-col last-col align-center no-margin-bottom">
-                  <a href="<?php echo site_url(); ?>/contact-us">
+                  <a href="<?php echo site_url(); ?>/contact">
                     <img src="<?php bloginfo('template_directory'); ?>/img/icon-contact.png" alt="" class="slider-image" />
                     <h2 class="slider-title">Contact</h2>
                     <p class="slider-text">All our contact details in one place</p>
