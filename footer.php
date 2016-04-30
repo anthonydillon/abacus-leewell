@@ -18,10 +18,7 @@
         <div class="two-col">
           <h4>Services</h4>
           <ul class="no-bullets">
-            <li><a href="/services/consultancy">Consultancy</a></li>
-            <li><a href="/services/repair">Repair</a></li>
-            <li><a href="/services/remote-support">Remote Support</a></li>
-            <li><a href="/services/managed-services">Managed Services</a></li>
+            <li><a href="/services/maintenance-repair/">Maintenance / repair</a></li>
           </ul>
         </div>
         <div class="two-col">
@@ -35,23 +32,21 @@
           <h4>Solutions</h4>
           <ul class="no-bullets">
             <li><a href="/solutions/managed-print-service">Managed Print Service</a></li>
-            <li><a href="/solutions/cloud">Cloud</a></li>
             <li><a href="/solutions/networking">Networking</a></li>
+            <li><a href="/solutions/cloud">Cloud</a></li>
+            <li><a href="/solutions/managed-remote-services/">Managed Remote Services</a></li>
           </ul>
         </div>
         <div class="two-col">
           <h4>News Centre</h4>
           <ul class="no-bullets">
-            <li><a href="/news-centre">Latest news</a></li>
             <li><a href="/news-centre">Blog</a></li>
-            <li><a href="/news-centre">Case studies</a></li>
-            <li><a href="/news-centre">Social media</a></li>
           </ul>
         </div>
         <div class="two-col last-col">
           <h4>Small print</h4>
           <ul class="no-bullets">
-            <li><a href="/privacy">Your privacy</a></li>
+            <li><a href="/privacy-policy/">Privacy policy</a></li>
             <li><a href="/terms-and-conditions">Terms and conditions</a></li>
           </ul>
         </div>
