@@ -336,27 +336,29 @@ table thead td {
 /*
  * Services page
  */
+.consultancy .row-hero,
 .services .row-hero {
   background-image: url('img/hero-services-background.jpg');
   background-position: center center;
 }
 
+.consultancy .row-hero h1,
 .services .row-hero h1 {
   margin-top: 60px;
   margin-bottom: 0;
 }
 
-.services .row-services {
+.consultancy .row-services {
   background-image: url('img/project-management.jpg');
   background-size: cover;
   height: 1000px;
 }
 
-.services .section-2 strong {
+.consultancy .section-2 strong {
   color: #09378b;
 }
 
-.services .box {
+.consultancy .box {
   min-height: 120px;
   position: absolute;
   width: 300px;
@@ -369,57 +371,57 @@ table thead td {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
 
-.services .box .no-bullets {
+.consultancy .box .no-bullets {
   margin-bottom: 0;
 }
 
-.services .box:hover {
+.consultancy .box:hover {
   background: -moz-linear-gradient(top,  rgba(56,82,167,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(top,  rgba(56,82,167,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom,  rgba(56,82,167,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
 
-.services .box.plan {
+.consultancy .box.plan {
   top: 100px;
   left: calc(50% - 180px);
 }
 
-.services .box.design-implement {
+.consultancy .box.design-implement {
   top: 360px;
   right: 120px;
 }
 
-.services .box.manage {
+.consultancy .box.manage {
   top: 660px;
   right: 150px;
 }
 
-.services .box.optimise {
+.consultancy .box.optimise {
   top: 360px;
   left: 100px;
 }
 
-.services .box.support {
+.consultancy .box.support {
   top: 660px;
   left: 130px;
 }
 
-.services .box h3 {
+.consultancy .box h3 {
   color: #fff;
   font-weight: 700;
   text-decoration: none;
   margin-bottom: 0;
 }
 
-.services .box:link,
-.services .box:visited {
+.consultancy .box:link,
+.consultancy .box:visited {
   text-decoration: none;
   color: #333;
 }
 
-.services .box:link h3,
-.services .box:visited h3 {
+.consultancy .box:link h3,
+.consultancy .box:visited h3 {
   color: #fff;
 }
 
