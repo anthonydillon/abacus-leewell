@@ -19,6 +19,7 @@
           <h4>Services</h4>
           <ul class="no-bullets">
             <li><a href="/services/maintenance-repair/">Maintenance / repair</a></li>
+            <li><a href="/services/consultancy/">Consultancy</a></li>
           </ul>
         </div>
         <div class="two-col">
