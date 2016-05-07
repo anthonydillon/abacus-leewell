@@ -20,6 +20,7 @@
           <ul class="no-bullets">
             <li><a href="/services/maintenance-repair/">Maintenance / repair</a></li>
             <li><a href="/services/consultancy/">Consultancy</a></li>
+            <li><a href="/services/managed-remote-services/">Managed Remote Services</a></li>
           </ul>
         </div>
         <div class="two-col">
@@ -35,7 +36,6 @@
             <li><a href="/solutions/managed-print-service">Managed Print Service</a></li>
             <li><a href="/solutions/networking">Networking</a></li>
             <li><a href="/solutions/cloud">Cloud</a></li>
-            <li><a href="/solutions/managed-remote-services/">Managed Remote Services</a></li>
           </ul>
         </div>
         <div class="two-col">

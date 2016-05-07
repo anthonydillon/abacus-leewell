@@ -439,6 +439,14 @@ table thead td {
 }
 
 /*
+ * Products page
+ */
+
+.fake-row {
+  margin-bottom: 60px;
+}
+
+/*
  * Solutions page
  */
 
