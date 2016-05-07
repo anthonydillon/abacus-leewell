@@ -279,6 +279,8 @@ table thead td {
 
 .inline-logos .inline-logos__item {
   width: 60px;
+  margin-left: 18px;
+  margin-right: 18px;
 }
 
 .inline-logos .inline-logos__image {
