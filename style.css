@@ -360,60 +360,62 @@ table thead td {
   color: #09378b;
 }
 
-.consultancy .box {
-  min-height: 120px;
-  position: absolute;
-  width: 300px;
-  border-radius: 20px;
-  padding: 20px;
-  border: 2px solid #fff;
-  background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-}
+@media only screen and (min-width: 768px) {
+  .consultancy .box {
+    min-height: 120px;
+    position: absolute;
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid #fff;
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  }
 
-.consultancy .box .no-bullets {
-  margin-bottom: 0;
-}
+  .consultancy .box .no-bullets {
+    margin-bottom: 0;
+  }
 
-.consultancy .box:hover {
-  background: -moz-linear-gradient(top,  rgba(56,82,167,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(56,82,167,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(56,82,167,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-}
+  .consultancy .box:hover {
+    background: -moz-linear-gradient(top,  rgba(56,82,167,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(56,82,167,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(56,82,167,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  }
 
-.consultancy .box.plan {
-  top: 100px;
-  left: calc(50% - 180px);
-}
+  .consultancy .box.plan {
+    top: 100px;
+    left: calc(50% - 180px);
+  }
 
-.consultancy .box.design-implement {
-  top: 360px;
-  right: 120px;
-}
+  .consultancy .box.design-implement {
+    top: 360px;
+    right: 120px;
+  }
 
-.consultancy .box.manage {
-  top: 660px;
-  right: 150px;
-}
+  .consultancy .box.manage {
+    top: 660px;
+    right: 150px;
+  }
 
-.consultancy .box.optimise {
-  top: 360px;
-  left: 100px;
-}
+  .consultancy .box.optimise {
+    top: 360px;
+    left: 100px;
+  }
 
-.consultancy .box.support {
-  top: 660px;
-  left: 130px;
-}
+  .consultancy .box.support {
+    top: 660px;
+    left: 130px;
+  }
 
-.consultancy .box h3 {
-  color: #fff;
-  font-weight: 700;
-  text-decoration: none;
-  margin-bottom: 0;
+  .consultancy .box h3 {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 0;
+  }
 }
 
 .consultancy .box:link,
@@ -577,4 +579,45 @@ table thead td {
 .contact-form input,
 .contact-form textarea {
   margin-bottom: 1em;
+}
+
+/*
+ * Mobile styles
+ */
+
+@media only screen and (max-width: 768px) {
+  .contact-info {
+    float: none;
+  }
+
+  .nav-primary {
+    border-bottom: 1px solid #cdcdcd;
+    margin-bottom: 10px;
+  }
+
+  .nav-primary .inline-list {
+    margin-bottom: 0;
+  }
+
+  .nav-primary li,
+  .nav-primary .right {
+    width: 42%;
+    display: inline-block;
+  }
+
+  .nav-primary .right {
+    float: none;
+  }
+
+  .row-hero h1 {
+    padding-top: 20px;
+    font-size: 2em;
+  }
+
+  .nav-secondary,
+  .logo,
+  .contact-info {
+    position: static;
+    padding: 0 5px;
+  }
 }
