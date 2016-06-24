@@ -21,7 +21,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="https://assets.ubuntu.com/v1/vanilla-framework-version-0.0.61.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="<?php bloginfo('template_directory'); ?>/style.css" />
-    <link rel='stylesheet' id='sharedaddy-css' href='<?php bloginfo('template_directory'); ?>/wp-content/plugins/jetpack/modules/sharedaddy/sharing.css?ver=2.3.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='sharedaddy-css' href='http://abacus-leewell.co.uk/wp-content/plugins/jetpack/modules/sharedaddy/sharing.css?ver=2.3.1' type='text/css' media='all' />
 
 </head>
 
