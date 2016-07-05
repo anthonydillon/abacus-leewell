@@ -26,6 +26,7 @@ get_header(); ?>
 	<div class="row border">
 		<div class="inner-wrapper">
 			<div class="seven-col append-one">
+        <?php get_search_form(); ?>
 				<h2>Latest news</h2>
 				<ul class="list no-bullets">
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
