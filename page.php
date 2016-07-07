@@ -14,7 +14,14 @@
 get_header(); ?>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-	<div class="row row-hero strip-dark no-border">
+  <?php $hero_id = get_post_meta($post->ID, 'hero_image', $single = true); ?>
+	<div class="row row-hero strip-dark no-border"
+  <?php
+    if ($hero_id) {
+      echo 'style="background-image: url('.wp_get_attachment_url($hero_id).');"';
+    }
+  ?>
+  >
 		<div class="inner-wrapper">
 			<div class="eight-col prepend-two align-center">
 				<h1><?php the_title(); ?></h1>

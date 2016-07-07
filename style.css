@@ -119,6 +119,8 @@ Tags: blue, white, abacus leewell, clouds, tech
   text-align: center;
   margin-top: 20px;
   font-size: 5em;
+  text-shadow: 0 0 15px #333;
+  font-weight: 700;
 }
 
 /*
@@ -138,12 +140,15 @@ Tags: blue, white, abacus leewell, clouds, tech
     font-weight: bold;
   }
 
+  img.alignright {float:right; margin:0 0 1em 1em}
+  img.alignleft {float:left; margin:0 1em 1em 0}
+  img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+  a img.alignright {float:right; margin:0 0 1em 1em}
+  a img.alignleft {float:left; margin:0 1em 1em 0}
+  a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
  .row {
    border-bottom: 0;
- }
-
- .row-hero h1 {
-   font-weight: 700;
  }
 
 .clouds-top {
