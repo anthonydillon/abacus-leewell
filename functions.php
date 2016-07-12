@@ -10,7 +10,9 @@
        ),
       'description' => 'Abacus Leewell products',
       'public' => true,
+      'has_archive' => true,
       'menu_position' => 20,
+      'rewrite' => array( 'slug' => 'product' ),
       'supports' => array( 'title', 'editor' )
     ));
   }
