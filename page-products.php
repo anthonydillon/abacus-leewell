@@ -34,11 +34,12 @@ get_header(); ?>
 </div>
 
 <div class="row no-border strip-grey">
-	<div class="inner-wrapper">
+	<div>
 			<h2 class="muted-heading">Our leading partners are:</h2>
 			<ul class="inline-logos clear">
 				<li class="inline-logos__item"><img src="<?php bloginfo('template_directory'); ?>/img/logo-avg.png" alt="AVG" class="inline-logos__image" /></li>
 				<li class="inline-logos__item"><img src="<?php bloginfo('template_directory'); ?>/img/logo-brother.png" alt="Brother" class="inline-logos__image" /></li>
+				<li class="inline-logos__item"><img src="<?php bloginfo('template_directory'); ?>/img/logo-cherry.png" alt="Cherry" class="inline-logos__image" /></li>
 				<li class="inline-logos__item"><img src="<?php bloginfo('template_directory'); ?>/img/logo-cisco.png" alt="Cisco" class="inline-logos__image" /></li>
 				<li class="inline-logos__item"><img src="<?php bloginfo('template_directory'); ?>/img/logo-cisco-meraki.png" alt="Cisco Meraki" class="inline-logos__image" /></li>
 				<li class="inline-logos__item"><img src="<?php bloginfo('template_directory'); ?>/img/logo-fijitsu.png" alt="Fijitsu" class="inline-logos__image" /></li>
@@ -46,6 +47,7 @@ get_header(); ?>
 				<li class="inline-logos__item"><img src="<?php bloginfo('template_directory'); ?>/img/logo-kaspersky.png" alt="Kaspersky" class="inline-logos__image" /></li>
 				<li class="inline-logos__item"><img src="<?php bloginfo('template_directory'); ?>/img/logo-microsoft.png" alt="Microsoft" class="inline-logos__image" /></li>
 				<li class="inline-logos__item"><img src="<?php bloginfo('template_directory'); ?>/img/logo-oki.png" alt="OKI" class="inline-logos__image" /></li>
+				<li class="inline-logos__item"><img src="<?php bloginfo('template_directory'); ?>/img/logo-terra.png" alt="Terra" class="inline-logos__image" /></li>
 				<li class="inline-logos__item"><img src="<?php bloginfo('template_directory'); ?>/img/logo-utax.png" alt="UTAX" class="inline-logos__image" /></li>
 			</ul>
 	</div>
