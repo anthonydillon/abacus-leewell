@@ -39,6 +39,7 @@
         </div>
         <nav role="navigation" class="nav-primary">
             <p class="right"><a href="<?php echo site_url(); ?>/book-a-repair" <?php echo ($post_slug == 'book-a-repair' ? 'class="is-active"': '')?>>Book a Repair</a></p>
+            <p class="right"><a href="http://www.abacusleewellonline.co.uk" target="_blank">Shop</a></p>
             <ul class="inline-list">
                 <li><a href="<?php echo site_url(); ?>/" <?php echo ($post_slug == 'homepage' ? 'class="is-active"': '')?>>Home</a></li>
                 <li><a href="<?php echo site_url(); ?>/about-us" <?php echo ($post_slug == 'about-us' ? 'class="is-active"': '')?>>About us</a></li>
