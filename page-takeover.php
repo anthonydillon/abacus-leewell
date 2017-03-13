@@ -70,7 +70,7 @@
                         Mob: 07958 462622<br />
                         e-mail: info@abacussupplies.com<br />
                         For further information about their services<br />
-                        please visit <a href="www.abacussupplies.com">www.abacussupplies.com</a>
+                        please visit <a href="http://www.abacussupplies-orderstore.co.uk">www.abacussupplies-orderstore.co.uk</a>
                     </p>
                 </div>
 
