@@ -68,7 +68,9 @@
                         Tel: 01462 628847<br />
                         Fax: 01462 626542<br />
                         Mob: 07958 462622<br />
-                        e-mail: info@abacussupplies.com
+                        e-mail: info@abacussupplies.com<br />
+                        For further information about their services<br />
+                        please visit <a href="www.abacussupplies.com">www.abacussupplies.com</a>
                     </p>
                 </div>
 
